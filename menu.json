@@ -1,0 +1,122 @@
+{
+    "menu_id": "menu123",
+    "restaurant_id": "rest_abc123",
+    "categories": [
+      {
+        "starters": "Starters",
+        "rice": "Rice",
+        "pasta": "Pasta",
+        "snacks": "Snacks",
+        "pizza": "Pizza",
+        "beverages": "Beverages"
+      }
+    ],
+    "menu": {
+      "starters": [
+        {
+          "item_id": "cyz122a",
+          "name": "Tandoori",
+          "type": "customisation",
+          "customisations": "quantity",
+          "quantity": [
+            {
+              "name": "half",
+              "price": 200
+            },
+            {
+              "name": "full",
+              "price": 350
+            }
+          ]
+        },
+        {
+          "item_id": "cxz122a",
+          "name": "Noodles",
+          "type": "single",
+          "price": 200
+        },
+        {
+          "item_id": "cyz123a",
+          "name": "Pasta",
+          "type": "customisation",
+          "customisations": "pastatype",
+          "pastatype": [
+            {
+              "name": "chicken",
+              "price": 180
+            },
+            {
+              "name": "white",
+              "price": 190
+            }
+          ]
+        }
+      ],
+      "pizza": [
+        {
+          "item_id": "cbz213",
+          "name": "African Peri Peri",
+          "type": "customisation",
+          "customisation": [
+            "crust",
+            "size",
+            "toppings"
+          ],
+          "crust": [
+            {
+              "name": "handtossed",
+              "base": [
+                {
+                  "size": "Medium",
+                  "price": 200
+                },
+                {
+                  "size": "Large",
+                  "price": 500
+                },
+                {
+                  "size": "Regular",
+                  "price": 300
+                }
+              ]
+            },
+            {
+              "name": "Cheese Burst",
+              "base": [
+                {
+                  "size": "Medium",
+                  "price": 200
+                },
+                {
+                  "size": "Regular",
+                  "price": 300
+                }
+              ]
+            }
+          ],
+          "toppings": [
+            {
+              "topping": "Peprika",
+              "price": 60
+            },
+            {
+              "topping": "Mushroom",
+              "price": 60
+            },
+            {
+              "topping": "Chicken",
+              "price": 80
+            },
+            {
+              "topping": "Paneer",
+              "price": 60
+            },
+            {
+              "topping": "Corn",
+              "price": 60
+            }
+          ]
+        }
+      ]
+    }
+  }

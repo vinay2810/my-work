@@ -1,0 +1,64 @@
+{
+  "menu_id": "menu123",
+  "restaurant_id": "rest_abc123",
+  "categories": [
+    {
+      "starters": "Starters",
+      "pasta": "Pasta",
+      "pizza": "Pizza",
+      "rice": "Rice",
+      "snacks": "Snacks",
+      "beverages": "Beverages"
+    }
+  ],
+  "menu": {
+    "starters": [
+      {
+        "item_id": "cyz122a",
+        "name": "Tandoori",
+        "type": "customisation",
+        "customisations": ["quantity"],
+        "quantity": { "half": 200, "full": 350 }
+      },
+      {
+        "item_id": "cxz122a",
+        "name": "Noodles",
+        "type": "single",
+        "price": 200
+      }
+    ],
+    "pasta": [
+      {
+        "item_id": "cyz123a",
+        "name": "Pasta",
+        "type": "customisation",
+        "customisations": ["pastatype"],
+        "pastatype": { "chicken": 180, "white" :190 }
+      }
+    ],
+    "pizza": [
+      {
+        "item_id": "cbz213",
+        "name": "African Peri Peri",
+        "type": "customisation",
+        "customisation": ["crust", "toppings"],
+        "crust": {
+              "handtossed":{
+                  "Medium" : 200, "Large" : 500, "Regular" : 300
+              },
+              "Cheese Burst":{
+                  "Medium" : 200, "Regular" : 300
+              }
+        },
+        "toppings":
+          {
+            "Peprika" : 60, 
+            "Mushroom": 60,
+            "Chicken" : 80,
+            "Paneer" : 60,
+            "Corn" : 60
+          }
+      }
+    ]
+  }
+}
